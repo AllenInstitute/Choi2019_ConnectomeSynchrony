@@ -23,4 +23,3 @@ This MATLAB code numerically generates a time series of phases of Kuramoto-type 
 
 Any comments/bug-reports are welcome (hannahch@uw.edu, hannahc@alleninstitute.org).
 
-Copyright 2019 Allen Institute  
