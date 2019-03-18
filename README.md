@@ -10,7 +10,7 @@ Written by Hannah Choi (hannahch@uw.edu, hannahc@alleninstitute.org), 3/18/2019
 
 We are releasing this code to the public as a tool we expect others to use. Questions concerning bugs and related issues are welcomed. We expect to address them promptly, pull requests will vetted by our staff before inclusion.
 
-## Descriptions
+## Description
 This MATLAB code numerically generates a time series of phases of Kuramoto-type oscillators on the data-driven mouse whole-brain network and the power-law estimated network. The simulations are performed with realistic distance-dependent time delays and intrinsic frequencies. Using the generated phase time series, the code also computes order parameters of the network. 
 
 ## Running Simulations
