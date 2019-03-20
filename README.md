@@ -22,5 +22,8 @@ This MATLAB code numerically generates a time series of phases of Kuramoto-type 
 * ```get_orderparam.m``` takes the generated time series data and the connectivity matrix, and computes the order parameter of the network.
 * ```shadedErrorBar.m``` is a complementary code that helps generating shaded error bars in figures. This code is available at "https://www.mathworks.com/matlabcentral/fileexchange/26311-raacampbell-shadederrorbar" (by Rob Campbell).
 
+## Terms of Use
+https://alleninstitute.org/legal/terms-use/
+
 Any comments/bug-reports are welcome (hannahch@uw.edu, hannahc@alleninstitute.org).
 
