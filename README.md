@@ -20,10 +20,9 @@ This MATLAB code numerically generates a time series of phases of Kuramoto-type 
 * ```Network_Kuramoto.m``` generates time series data from coupled phase oscillators using Forward Euler Method. This code is written based on the numerical integration setup in the following paper:  Cabral et al (2011), NeuroImage. https://doi.org/10.1016/j.neuroimage.2011.04.010
 
 * ```get_orderparam.m``` takes the generated time series data and the connectivity matrix, and computes the order parameter of the network.
-* ```shadedErrorBar.m``` is a complementary code that helps generating shaded error bars in figures. This code is available at "https://www.mathworks.com/matlabcentral/fileexchange/26311-raacampbell-shadederrorbar" (by Rob Campbell).
+* ```shadedErrorBar.m``` is a complementary external code that helps generating shaded error bars in figures. This code by Rob Campbell is available at "https://www.mathworks.com/matlabcentral/fileexchange/26311-raacampbell-shadederrorbar".
 
 ## Terms of Use
 https://alleninstitute.org/legal/terms-use/
 
-Any comments/bug-reports are welcome (hannahch@uw.edu, hannahc@alleninstitute.org).
 
