@@ -15,6 +15,7 @@ This MATLAB code numerically generates a time series of phases of Kuramoto-type 
 
 ## Running Simulations
 * ```main_run.m``` is the main figure generating codes that loads the connectivity matrices and the distance matrix from ```adjmat_whole.mat``` & ```adjmat_ipsi.mat```, and calls ```solve_diffeq.m``` and ```get_orderparam.m```.
+* ```generate_modified_nets.m``` reads ```adjmat_whole.mat``` & ```adjmat_ipsi.mat```, and constructs networks with structural modifications (eg. networks with residual weights re-located and networks constructed by adding fractions of residuals back to the power-law network). These re-structured networks can be saved and loaded in ```main_run.m``` to simulate phase oscillator dynamics and compute order parameters on these new, re-structured networks, in addition to the data-driven connectome and the power-law approximated network. 
 * ```solve_diffeq.m``` solves coupled ODEs over multiple realizations in parallel by calling ```Network_Kuramoto.m```.
 * ```parsave.m``` is called in ```solve_diffeq.m``` to save numerically integrated phases ```phi``` and time points ```t``` in parallelized computations.  
 * ```Network_Kuramoto.m``` generates time series data from coupled phase oscillators using Forward Euler Method. This code is written based on the numerical integration setup in the following paper:  Cabral et al (2011), NeuroImage. https://doi.org/10.1016/j.neuroimage.2011.04.010
