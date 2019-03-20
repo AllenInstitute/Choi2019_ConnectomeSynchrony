@@ -29,7 +29,7 @@ global t_transient
 % sig_n                = Standard deviation of noise (can be zero)
 
 % Outputs:
-% Phases               = Simulated phases of n oscillators over a total
+% Phases               = Simulated phases of N oscillators over a total
 %                        time defined by t_max at a resolution dt*sampling.
 %                        The phases are in radians between 0 and 2*pi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
