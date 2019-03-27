@@ -6,7 +6,7 @@ global t_transient
 %    Code to compute phases of coupled oscillators with distance dependent
 %    time delays numerically using the Forward Euler method.
 
-%    Modified from Cabral et al.(2011) NeuroImage 57  130-139
+%    Integration setup written based on Cabral et al.(2011) NeuroImage 57  130-139
 %    Code used for simulations in Choi & Mihalas (2019)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
